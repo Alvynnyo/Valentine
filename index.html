@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma demande</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+
+  <div class="main-container">
+    <!-- Écran 1: Question -->
+    <div class="proposal-card" id="proposalBox">
+      <h1>Would you be my girlfriend?</h1>
+
+      <div class="buttons-wrapper">
+        <button class="btn btn-yes" id="yesBtn">Yes</button>
+        <button class="btn btn-no" id="noBtn">No</button>
+      </div>
+
+      <div class="shy-message" id="shyMsg">No seems a little shy... 🙈</div>
+    </div>
+
+    <!-- Écran 2: Succès -->
+    <div class="success-card" id="successBox">
+      <img src="roses.jpg" alt="Roses" class="rose-image" />
+
+      <div class="verse-text">
+        <span class="verse-ref">Prov 18:22</span>
+        Qui trouve une épouse trouve le bonheur : c'est une faveur que l'Eternel lui a accordée.
+        <div class="final-love">Je t'aime ❤️</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
